@@ -20,6 +20,7 @@
     line-height: 32px;
     font-size: 16px;
     border: none;
+    outline: none;
 }
 
 .search__button {
@@ -38,7 +39,15 @@
     font-size: 24px;
 }
 
+@media (orientation:landscape) and (min-width: 640px) {
+    .search {
+        margin-left: 30px;
+    }
 
+    .hamburger {
+        margin-right: 30px;
+    }
+}
 
 @media (min-width: 768px) {
     .search {
@@ -59,6 +68,10 @@
 
     }
 
+    .search {
+        margin-left: 0;
+    }
+
     .search__button {
         cursor: pointer;
     }
@@ -66,19 +79,10 @@
     .hamburger {
         cursor: pointer;
         transition: .2s;
+        margin-right: 0;
     }
 
     div i:hover {
         color: black;
-    }
-}
-
-@media (orientation:landscape) and (min-width: 640px) {
-    .search {
-        margin-left: 30px;
-    }
-
-    .hamburger {
-        margin-right: 30px;
     }
 }
