@@ -1,0 +1,195 @@
+.banner {
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgroung.jpeg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__wrapper {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.banner .banner__heading {
+    padding-top: 64px;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner .banner__paragraph {
+    font-size: 10px;
+    padding-top: 34px;
+}
+
+
+
+.banner__button {
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 30px 0 8px 180px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+@media (min-width: 533px) {
+    .banner__wrapper {
+        width: 420px;
+    }
+
+    .banner .banner__heading {
+        padding-top: 80px;
+        font-size: 25px;
+    }
+
+    .banner .banner__paragraph {
+        font-size: 14px;
+        padding: 40px 0 0 33px;
+    }
+
+    .banner__button {
+        margin: 30px 0 8px 320px;
+    }
+}
+
+@media (min-width: 533px) and (orientation:landscape) {
+    .banner {
+        height: 100vh;
+    }
+
+    .banner .banner__heading {
+        padding-top: 45px;
+    }
+}
+
+
+@media (min-width: 653px) {
+
+    .banner .banner__heading {
+        padding-top: 57px;
+    }
+
+}
+
+
+@media (min-width: 720px) {
+    .banner {
+        height: 60vh;
+    }
+
+    .banner__wrapper {
+        width: 480px;
+    }
+
+    .banner .banner__heading {
+        padding-top: 168px;
+        font-size: 34px;
+    }
+
+    .banner .banner__paragraph {
+        font-size: 16px;
+        padding: 40px 0 0 33px;
+    }
+
+    .banner__button {
+        margin: 30px 0 8px 380px;
+    }
+}
+
+@media (min-width: 720px) and (orientation:landscape) {
+    .banner {
+        height: 82vh;
+    }
+
+    .banner .banner__heading {
+        padding-top: 45px;
+    }
+}
+
+
+@media (min-width: 840px) {
+    .banner {
+        height: 100vh;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .banner {
+        height: 70vh;
+    }
+
+    .banner__wrapper {
+        width: 840px;
+    }
+
+    .banner .banner__heading {
+        padding-top: 90px;
+        font-size: 50px;
+    }
+
+    .banner .banner__paragraph {
+        font-size: 16px;
+        padding: 70px 0 0 395px;
+    }
+
+    .banner__button {
+        margin: 30px 0 8px 740px;
+    }
+}
+
+
+@media (min-width: 1024px) and (orientation:portrait) {
+    .banner {
+        height: 60vh;
+    }
+
+
+    .banner .banner__heading {
+        padding-top: 250px;
+    }
+
+    .banner .banner__paragraph {
+        font-size: 16px;
+        padding: 70px 0 0 395px;
+    }
+
+    .banner__button {
+        margin: 70px 0 8px 740px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .banner__wrapper {
+        width: 1024px;
+    }
+
+    .banner .banner__heading {
+        padding-top: 276px;
+        font-size: 50px;
+    }
+
+    .banner .banner__paragraph {
+        font-size: 16px;
+        padding: 70px 0 0 395px;
+    }
+
+    .banner__button {
+        margin: 30px 0 8px 740px;
+    }
+}
