@@ -1,5 +1,6 @@
 .header {
-    width: 100%;
+    width: 280px;
+    margin: 0 auto;
     height: 76px;
     display: flex;
     justify-content: space-between;
@@ -11,7 +12,6 @@
     max-height: 36px;
     max-height: 200px;
     border: 1px solid #999;
-    margin-left: 15px;
 }
 
 .search__input {
@@ -34,42 +34,27 @@
 }
 
 .hamburger {
-    margin-right: 15px;
     color: #999;
     font-size: 24px;
 }
 
-@media (orientation:landscape) and (min-width: 640px) {
-    .search {
-        margin-left: 30px;
-    }
-
-    .hamburger {
-        margin-right: 30px;
+@media (min-width: 533px) {
+    .header {
+        width: 420px;
     }
 }
 
-@media (min-width: 768px) {
-    .search {
-        margin-left: 30px;
-    }
 
-    .hamburger {
-        margin-right: 30px;
+@media (min-width: 720px) {
+    .header {
+        width: 480px;
     }
 }
-
 
 
 @media (min-width: 1024px) {
     .header {
-        width: 1024px;
-        margin: 0 auto;
-
-    }
-
-    .search {
-        margin-left: 0;
+        width: 840px;
     }
 
     .search__button {
@@ -79,10 +64,16 @@
     .hamburger {
         cursor: pointer;
         transition: .2s;
-        margin-right: 0;
+
     }
 
     div i:hover {
         color: black;
+    }
+}
+
+@media (min-width: 1350px) {
+    .header {
+        width: 1024px;
     }
 }
