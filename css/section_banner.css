@@ -147,6 +147,10 @@
     .banner__button {
         margin: 30px 0 8px 740px;
     }
+
+    .banner__button:hover {
+        border-color: #63c9d5;
+    }
 }
 
 
@@ -190,6 +194,6 @@
     }
 
     .banner__button {
-        margin: 30px 0 8px 740px;
+        margin: 30px 0 8px 924px;
     }
 }
