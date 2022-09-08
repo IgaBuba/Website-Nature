@@ -7,7 +7,8 @@
     color: white;
     width: 280px;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
 }
 
 .introduction {
@@ -241,7 +242,7 @@
         background-color: #60683c;
     }
 
-    .start {
+    .start2 {
         display: block;
         position: relative;
     }
@@ -253,3 +254,65 @@
         left: 50%;
 
     }
+}
+
+@media (min-width: 1350px) {
+
+    .getting__wrapper {
+        width: 1024px;
+        padding-bottom: 50px;
+    }
+
+    .picture__wrapper {
+        margin-top: 23px;
+        height: 290px;
+        margin-left: 0px;
+    }
+
+    .picture__wrapper--short {
+        height: 280px;
+        margin-top: 30px;
+    }
+
+    .picture1 {
+        margin-top: -50px;
+        margin-left: 80px;
+        height: 400px;
+    }
+
+    .picture2 {
+        margin-top: -200px;
+        width: 100%;
+    }
+
+
+    .amazing__wrapper {
+        height: 500px;
+        margin-top: -50px;
+    }
+
+    .amazing__pic {
+        width: 70%;
+        margin-top: -170px;
+
+    }
+
+    .amazing__paragraph {
+        margin-right: 302px;
+        margin-top: -35px;
+    }
+
+    .wrap__start {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center
+    }
+
+    .start2 {
+        margin-left: 30px;
+    }
+
+    .getting__whiteframe {
+        margin-bottom: -5px;
+    }
+}
