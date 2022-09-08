@@ -242,7 +242,7 @@
         background-color: #60683c;
     }
 
-    .start2 {
+    .getting__amazing__wrapper {
         display: block;
         position: relative;
     }
@@ -302,17 +302,17 @@
         margin-top: -35px;
     }
 
-    .wrap__start {
-        margin-top: 60px;
-        display: flex;
-        justify-content: center
-    }
-
-    .start2 {
+    .getting__amazing__wrapper {
         margin-left: 30px;
     }
 
     .getting__whiteframe {
         margin-bottom: -5px;
+    }
+
+    .getting__picture__amazing__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center
     }
 }
