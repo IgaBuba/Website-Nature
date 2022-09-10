@@ -73,7 +73,9 @@
     background-color: #63c9d5;
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 1px;
+
 }
 
 
@@ -137,7 +139,11 @@
     }
 
     .whiteframe__paragraph {
-        font-size: 27px;
+        font-size: 17px;
+    }
+
+    .whiteframe__link:hover {
+        background-color: #3c868f;
     }
 
 }
