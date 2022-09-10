@@ -1,0 +1,161 @@
+.nature {
+    background-color: rgb(26, 26, 26);
+}
+
+.nature__wrappers {
+    width: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nature__wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.nature__position {
+    position: relative;
+}
+
+.nature__image {
+    width: 100%;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+
+}
+
+.nature__header {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 70px;
+}
+
+.nature__paragraph {
+    padding: 15px 20px 40px;
+}
+
+.nature__whiteframe {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.whiteframe__icon {
+    font-size: 64px;
+}
+
+.whiteframe__paragraph {
+    font-size: 19px;
+}
+
+.whiteframe__author {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.whiteframe__link {
+    margin-top: 30px;
+    padding: 10px 60px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #63c9d5;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+
+
+@media (min-width: 533px) {
+    .nature__wrappers {
+        width: 420px;
+    }
+
+    .nature__header {
+        font-size: 80px;
+    }
+
+    .nature__whiteframe {
+        margin-top: 30px;
+    }
+
+    .whiteframe__author {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 720px) {
+    .nature__wrappers {
+        width: 480px;
+    }
+
+    .nature__header {
+        font-size: 100px;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .nature__wrappers {
+        width: 840px;
+        flex-direction: row;
+    }
+
+    .nature__wrapper {
+        margin-left: 140px;
+        flex: 6;
+    }
+
+    .nature__header {
+        font-size: 110px;
+        margin-left: -164px;
+    }
+
+    .nature__whiteframe {
+        flex: 4;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    .whiteframe__icon {
+        font-size: 70px;
+    }
+
+    .whiteframe__paragraph {
+        font-size: 27px;
+    }
+
+}
+
+@media (min-width: 1350px) {
+    .nature__wrappers {
+        width: 1024px;
+    }
+
+    .nature__header {
+        font-size: 110px;
+        margin-left: -164px;
+    }
+
+    .nature__whiteframe {
+        flex: 4;
+        margin-top: 290px;
+        margin-left: 30px;
+    }
+
+}
