@@ -1,0 +1,145 @@
+.orcas {
+    background-color: #e0e5eb;
+}
+
+.orcas__wrappers {
+    width: 280px;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+
+.header__wrapper {
+    display: flex;
+}
+
+.orcas__header {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+.orca__threewrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.orca__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.wrapper__mask {
+    overflow: hidden;
+    width: 280px;
+}
+
+.orca__picture {
+    height: 300px;
+    margin-left: -130px;
+}
+
+.orca__paragraph {
+    margin: 30px 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+
+
+@media (min-width: 533px) {
+    .orcas__wrappers {
+        width: 420px;
+    }
+
+    .wrapper__mask {
+        width: 420px;
+    }
+
+    .orca__picture {
+        height: 400px;
+
+    }
+}
+
+
+@media (min-width: 720px) {
+    .orcas__wrappers {
+        width: 480px;
+    }
+
+    .wrapper__mask {
+        width: 480px;
+    }
+
+    .orca__picture {
+        height: 415px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .orcas__wrappers {
+        width: 840px;
+
+    }
+
+    .orcas__header {
+        margin: 30px auto;
+    }
+
+    .orca__wrapper {
+        flex: 1;
+        margin: 10px;
+
+    }
+
+    .orca__threewrap {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .wrapper__mask {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
+
+    .orca__picture {
+        height: 305px;
+        margin-left: 0;
+        position: absolute;
+        left: -118px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .orcas__wrappers {
+        width: 1024px;
+    }
+
+    .orca__wrapper {
+        margin: 15px;
+    }
+
+    .orca__threewrap {
+        margin-top: 30px;
+    }
+
+    .orcas__header {
+        margin: 40px 0 0 15px;
+        font-size: 46px;
+    }
+
+    .wrapper__mask {
+        height: 395px;
+    }
+
+    .orca__picture {
+        height: 385px;
+        left: -160px;
+    }
+}
