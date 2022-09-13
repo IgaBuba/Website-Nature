@@ -110,9 +110,9 @@
     }
 }
 
-@media (min-width: 720px) and (orientation:landscape) {
+@media (min-width: 720px) and (orientation: landscape) {
     .banner {
-        height: 82vh;
+        height: 100vh;
     }
 
     .banner .banner__heading {
