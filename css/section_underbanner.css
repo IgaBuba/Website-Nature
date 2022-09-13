@@ -19,6 +19,7 @@
 
 .underbanner__image {
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .underbanner__paragraph {
@@ -61,10 +62,6 @@
     .underbanner__container {
         padding: 20px 20px;
         margin: 15px;
-    }
-
-    .underbanner__image {
-        max-width: 100%;
     }
 
     .underbanner__paragraph {
