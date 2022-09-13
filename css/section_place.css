@@ -27,7 +27,9 @@
 }
 
 .place__link {
-    margin: 20px 163px 40px 0;
+    display: flex;
+    align-self: flex-start;
+    margin: 20px 0 40px 0;
     font-family: 'Open Sans', sans-serif;
     color: black;
     border-bottom: 2px solid #63c9d5;
@@ -49,20 +51,12 @@
     .place__header {
         font-size: 44px;
     }
-
-    .place__link {
-        margin: 20px 305px 40px 0;
-    }
 }
 
 
 @media (min-width: 720px) {
     .place__wrappers {
         width: 480px;
-    }
-
-    .place__link {
-        margin: 20px 365px 40px 0;
     }
 }
 
@@ -99,10 +93,6 @@
 
     }
 
-    .place__link {
-        margin: 20px 169px 40px 0;
-    }
-
     .place__link:hover {
         color: #63c9d5;
     }
@@ -120,9 +110,4 @@
     .wrapper1 {
         padding: 20px 20px 20px 0;
     }
-
-    .place__link {
-        margin: 20px 199px 40px 0;
-    }
-
 }

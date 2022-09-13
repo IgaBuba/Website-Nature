@@ -31,6 +31,8 @@
 }
 
 .introduction__link {
+    display: flex;
+    align-self: flex-start;
     margin: 30px auto 60px 0;
     border-bottom: 2px solid white;
     background-color: transparent;
@@ -95,7 +97,9 @@
 }
 
 .amazing__link {
-    margin: 30px 180px 60px 0;
+    display: flex;
+    align-self: flex-start;
+    margin: 30px 0 60px 0;
     border-bottom: 2px solid white;
     background-color: transparent;
     color: white;
@@ -157,11 +161,6 @@
     .amazing__pic {
         margin-top: -100px;
     }
-
-    .amazing__link {
-        margin: 30px 320px 60px 0;
-
-    }
 }
 
 
@@ -178,10 +177,6 @@
 
     .amazing__pic {
         margin-top: -140px;
-    }
-
-    .amazing__link {
-        margin: 30px 380px 60px 0;
     }
 }
 
@@ -230,7 +225,6 @@
     }
 
     .amazing__link {
-        margin: 30px 0px 60px 0px;
         padding: 10px 30px;
         border: none;
         background-color: #7B864C;
