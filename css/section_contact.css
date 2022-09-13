@@ -203,6 +203,10 @@
         padding-left: 60px;
     }
 
+    .input__button {
+        cursor: pointer;
+    }
+
     .yellow__paragraph {
         display: flex;
         font-size: 35px;

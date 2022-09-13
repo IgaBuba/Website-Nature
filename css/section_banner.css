@@ -33,13 +33,19 @@
 
 
 .banner__button {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
     border: none;
     border-bottom: 2px solid white;
-    margin: 30px 0 8px 180px;
+    margin: 30px 0 8px;
     background-color: transparent;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 
 @media (min-width: 390px) {
@@ -61,10 +67,6 @@
     .banner .banner__paragraph {
         font-size: 14px;
         padding: 40px 0 0 33px;
-    }
-
-    .banner__button {
-        margin: 30px 0 8px 320px;
     }
 }
 
@@ -106,10 +108,6 @@
         font-size: 16px;
         padding: 40px 0 0 33px;
     }
-
-    .banner__button {
-        margin: 30px 0 8px 380px;
-    }
 }
 
 @media (min-width: 720px) and (orientation:landscape) {
@@ -144,13 +142,14 @@
         font-size: 50px;
     }
 
+    .banner__button {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
     .banner .banner__paragraph {
         font-size: 16px;
         padding: 70px 0 0 395px;
-    }
-
-    .banner__button {
-        margin: 30px 0 8px 740px;
     }
 
     .banner__button:hover {
@@ -173,10 +172,6 @@
         font-size: 16px;
         padding: 70px 0 0 395px;
     }
-
-    .banner__button {
-        margin: 70px 0 8px 740px;
-    }
 }
 
 @media (min-width: 1350px) {
@@ -196,9 +191,5 @@
     .banner .banner__paragraph {
         font-size: 16px;
         padding: 70px 0 0 395px;
-    }
-
-    .banner__button {
-        margin: 30px 0 8px 924px;
     }
 }
