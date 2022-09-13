@@ -13,6 +13,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: white;
+    text-align: center;
 }
 
 .footer__link {
@@ -30,13 +31,18 @@
     }
 
     .footer__paragraph {
-        font-size: 12px;
+        margin: 0 auto;
+        font-size: 13px;
     }
 }
 
 @media (min-width: 720px) {
     .footer__wrapper {
         width: 480px;
+    }
+
+    .footer__paragraph {
+        font-size: 12px;
     }
 }
 
