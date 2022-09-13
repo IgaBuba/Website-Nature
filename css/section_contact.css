@@ -1,0 +1,294 @@
+.contact {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: 50px 0;
+
+}
+
+.contact__wrappers {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.info__header {
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+}
+
+.info__icon {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info__paragraph {
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.inputs {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    font-size: 15px;
+    padding: 10px 12px;
+    margin: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input__textarea {
+    height: 150px;
+}
+
+.input__button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.yellow__mask {
+    overflow: hidden;
+    width: 280px;
+    height: 350px;
+}
+
+.yellow__image {
+    height: 407px;
+    margin-left: -230px;
+}
+
+.yellow__paragraph {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.equal__mask {
+    display: flex;
+    flex-direction: column;
+}
+
+.sky {
+    display: flex;
+    flex-direction: column;
+}
+
+.sky__paragraph {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sky__link {
+    display: flex;
+    align-self: flex-start;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border-style: none none solid;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.sky__mask {
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sky__image {
+    width: 605px;
+    margin-left: -167px;
+}
+
+
+
+
+
+
+
+@media (min-width: 533px) {
+    .contact__wrappers {
+        width: 420px;
+    }
+
+    .yellow__mask {
+        width: 420px;
+        height: 540px;
+    }
+
+    .yellow__image {
+        height: 540px;
+        margin-left: -280px;
+    }
+
+    .sky__mask {
+        width: 420px;
+        height: 540px;
+    }
+
+    .sky__image {
+        width: 813px;
+        margin-left: -200px;
+    }
+}
+
+
+
+@media (min-width: 720px) {
+    .contact__wrappers {
+        width: 480px;
+    }
+
+    .yellow__mask {
+        width: 480px;
+        height: 480px;
+    }
+
+    .yellow__image {
+        margin-left: -248px;
+    }
+
+    .sky__paragraph {
+        margin-top: 40px;
+    }
+
+    .sky__mask {
+        width: 480px;
+        height: 480px;
+    }
+
+    .sky__image {
+        margin-top: -60px;
+        margin-left: -170px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact__wrappers {
+        width: 840px;
+    }
+
+    .contact__wrapper1,
+    .yellow,
+    .sky {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .equal__mask {
+        width: 420px;
+        align-self: center;
+    }
+
+    .inputs,
+    .info,
+    .yellow,
+    .sky {
+        flex: 1;
+    }
+
+    .inputs {
+        padding-left: 60px;
+    }
+
+    .yellow__paragraph {
+        display: flex;
+        font-size: 35px;
+        margin: 0;
+        padding-left: 30px;
+    }
+
+    .sky__paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 0;
+        padding-right: 30px;
+    }
+
+    .sky__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sky__link {
+        margin: 30px 0;
+        line-height: 24px;
+    }
+
+    .sky__link:hover {
+        border-color: #63c9d5;
+    }
+
+    .sky__image {
+        margin-left: -200px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .contact__wrappers {
+        width: 1024px;
+    }
+
+    .contact__wrapper2 {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .equal__mask {
+        flex: 1;
+    }
+
+    .yellow__mask {
+        flex: 0 0 50%;
+    }
+
+    .yellow__mask,
+    .sky__mask {
+        height: 290px;
+        width: 100px;
+    }
+
+    .yellow__image,
+    .sky__image {
+        height: 400px;
+    }
+
+    .yellow__image {
+        height: 100%;
+        margin-left: -120px;
+    }
+
+    .yellow__paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 31px;
+        margin: 0;
+        flex: 0 0 50%;
+    }
+
+    .sky__image {
+        margin-top: 0;
+        margin-left: -290px;
+        height: 100%;
+    }
+
+    .sky__paragraph {
+        padding-right: 20px;
+    }
+
+
+
+}
