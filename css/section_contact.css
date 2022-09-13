@@ -28,6 +28,12 @@
     font-family: 'Roboto', sans-serif;
     line-height: 23px;
     font-weight: bold;
+    color: white;
+}
+
+.info__paragraph a {
+    color: white;
+    text-decoration: none;
 }
 
 .inputs {
@@ -54,6 +60,7 @@
     font-weight: bold;
     padding: 10px 30px;
     font-size: 16px;
+    color: #000;
 }
 
 .yellow__mask {
